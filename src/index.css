@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #E0E0E0;
+  /* background-color: rgba(0, 0, 0, .1)!important; */
+  /* box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%); */
+  /* min-height: 1000px; */
+
+}
+.my-font{
+  font-family: 'Tangerine', cursive;
+
+}
+ .home{
+   min-height: 350px!important;
+ }
+.my-color{
+  color: #f1356d!important
+}
+.my-bg{  background-color: #f1356d!important}
+.blog{
+  /* box-shadow: 1px 1px 1px rgba(0,0,0,0.1); */
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  padding:10px 20px;
+  /* width: 500px; */
+display: flex;
+border:0 solid #e2e8f0
+
+}
+.blog:hover{
+  transform: scale(1.001);
+  transition: all .5s;
+  box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+  box-shadow: 1px 5px 5px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+
+  /* cursor: pointer; */
+}
+.blog button{
+  width: 100px;
+}
+.blog-list,.blog-create,.blog-details,.not-found {
+  margin-top: 150px;
+}
+.submit-btn{
+  width: 200px;
+}
+nav{
+background-color: #6B7280!important;
+margin-bottom: 100px;
+
+}
+.title{
+  color:#6B7280;
+  font-family: 'Redressed', cursive!important;
+}
+/* footer */
+/* .b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+} */
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+footer{
+  margin-top: 100px;
+  position: relative;
+  bottom: 0;
 }
